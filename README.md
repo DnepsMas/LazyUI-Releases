@@ -4,9 +4,11 @@
 
 [下载最新版本](https://github.com/DnepsMas/LazyUI-Releases/releases/latest)
 
-解压完整 ZIP 后运行 `Open LazyUI.cmd`。以后在程序的“通用设置”中点击“检查更新”，下载验签后点击“安装并重启”。程序启动也会按六小时间隔检查。
+从 0.1.2 起，解压完整 ZIP 后双击 `LazyUI.exe`，文件夹可直接作为免安装程序目录使用；不再分发 CMD 启动文件。双击 `创建桌面快捷方式.exe`，或右键 `创建桌面快捷方式.ps1` 选择“使用 PowerShell 运行”，即可在桌面创建 LazyUI 快捷方式。移动整个目录后重新执行快捷方式入口。
 
-人工测试请使用 `Open LazyUI - Isolated Test.cmd`，它使用包内隔离数据根。
+已有 0.1.1 可以直接在程序的“通用设置”中点击“检查更新”，下载验签后点击“安装并重启”。新版本健康确认后会补齐根目录 EXE 和快捷方式脚本，旧 CMD 兼容入口保留。程序启动也会按六小时间隔检查。
+
+人工隔离测试运行 `LazyUI.exe --launch-isolated-test`，它使用包内隔离数据根；隔离入口禁用在线更新。更新测试请从普通 0.1.1 程序的通用设置执行。
 
 每个稳定版包含免安装 ZIP、`release-manifest.json` 和 `release-manifest.json.minisig`。更新器必须验证生产 minisign 签名及 ZIP、Desktop、Runtime 和 helper 的 SHA-256，并检查版本及数据格式兼容性，才允许安装。公开验签公钥见 [release-public-key.pub](release-public-key.pub)。
 
