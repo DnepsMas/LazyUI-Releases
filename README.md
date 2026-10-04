@@ -4,7 +4,7 @@
 
 [下载最新版本](https://github.com/DnepsMas/LazyUI-Releases/releases/latest)
 
-从 0.1.2 起，解压完整 ZIP 后双击 `LazyUI.exe`，文件夹可直接作为免安装程序目录使用；不再分发 CMD 启动文件。双击 `创建桌面快捷方式.exe`，或右键 `创建桌面快捷方式.ps1` 选择“使用 PowerShell 运行”，即可在桌面创建 LazyUI 快捷方式。移动整个目录后重新执行快捷方式入口。
+从 0.1.2 起，解压完整 ZIP 后双击 `LazyUI.exe`，文件夹可直接作为免安装程序目录使用；不再分发 CMD 启动文件。双击 `Create Desktop Shortcut.exe`，或右键 `Create Desktop Shortcut.ps1` 选择“使用 PowerShell 运行”，即可在桌面创建 LazyUI 快捷方式。移动整个目录后重新执行快捷方式入口。
 
 已有 0.1.1 可以直接在程序的“通用设置”中点击“检查更新”，下载验签后点击“安装并重启”。新版本健康确认后会补齐根目录 EXE 和快捷方式脚本，旧 CMD 兼容入口保留。程序启动也会按六小时间隔检查。
 
